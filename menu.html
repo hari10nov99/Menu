@@ -1,0 +1,160 @@
+<html>
+ <head>
+  <title>Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/menu.css">
+  <script src="js/menu.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Concert+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Bree+Serif|Blinker|Oswald&display=swap" rel="stylesheet">
+ </head>
+ <header id="hid">MENU</header>
+ <body bgcolor="#F0EAD6">
+  <div id="main-menu">
+   <div id="dish-div">
+    <div id="but-div">
+     <p>Starters<input id="but" type="button" value="+" onclick="showEleSTR()"></p>
+    </div>
+    <div id="ele-div1">
+     <h5 style="color:green"><img src="img/veglogo.png" width="20vw" height="20vw">Veg</h5>
+     <div id="grid-con">
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="veg-str" value="Chilli Panner Dry"><br>
+       <img src="img/chillpaneerdry.jpg">
+       <h6>Chilli Paneer Dry</h6>
+       <p>Price : ₹100</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="veg-str" value="Rajma Kebab"><br>
+       <img src="img/rajmakebab.jpg" alt="Rajma Kebab">
+       <h6>Rajma Kebab</h6>
+       <p>Price : ₹150</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="veg-str" value="Onion Rings"><br>
+       <img src="img/onionrings.jpg" alt="Onion Rings">
+       <h6>Onion Rings</h6>
+       <p>Price : ₹80</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="veg-str" value="Honey Chilli Potatoes"><br>
+       <img src="img/honeychillipotatoes.jpg" alt="Honey Chilli Potatoes">
+       <h6>Honey Chilli Potatoes</h6>
+       <p>Price : ₹90</p>
+      </div>
+     </div>
+     <h5 style="color:#cc0000"><img src="img/nonveglogo.png" width="20vw" height="20vw">Non-Veg</h5>
+     <div id="grid-con">
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="nveg-str" value="Kakori Kebab"><br>
+       <img src="img/kakorikebab.jpg" alt="Kakori Kebab">
+       <h6>Kakori Kebab</h6>
+       <p>Price : ₹60</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="nveg-str" value="Fried Chilli Chicken"><br>
+       <img src="img/friedchillichicken.jpg" alt="Fried Chilli Chicken">
+       <h6>Fried Chilli Chicken</h6>
+       <p>Price : ₹120</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="nveg-str" value="Chicken Satay"><br>
+       <img src="img/chickensatay.jpg" alt="Chicken Satay">
+       <h6>Chicken Satay</h6>
+       <p>Price : ₹70</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="nveg-str" value="Meat Cheese Balls"><br>
+       <img src="img/meatcheeseballs.jpg" alt="Meat Cheese Balls">
+       <h6>Meat Cheese Balls</h6>
+       <p>Price : ₹50</p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="dish-div">
+    <div id="but-div">
+     <p>Main Course<input id="but" type="button" value="+" onclick="showEleMC()"></p>
+    </div>
+    <div id="ele-div2">
+     <h5 style="color:green"><img src="img/veglogo.png" width="20vw" height="20vw">Veg</h5>
+     <div id="grid-con">
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="veg-mc" value="Paneer In Gravy"><br>
+       <img src="img/paneeringravy.jpg" alt="Paneer In Gravy">
+       <h6>Paneer In Gravy</h6>
+       <p>Price : ₹90</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="veg-str" value="Veg Gravy"><br>
+       <img src="img/veggravy.jpg" alt="Rajma Kebab">
+       <h6>Veg Gravy</h6>
+       <p>Price : ₹70</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="veg-str" value="Veg Briyani"><br>
+       <img src="img/vegbiryani.jpg" alt="Veg Biryani">
+       <h6>Veg Biryani</h6>
+       <p>Price : ₹50</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="veg-str" value="Dal Makhani"><br>
+       <img src="img/honeychillipotatoes.jpg" alt="Honey Chilli Potatoes">
+       <h6>Dal Makhani</h6>
+       <p>Price : ₹80</p>
+      </div>
+     </div>
+     <h5 style="color:#cc0000"><img src="img/nonveglogo.png" width="20vw" height="20vw">Non-Veg</h5>
+     <div id="grid-con">
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="nveg-str" value="Chicken Curry"><br>
+       <img src="img/chickencurry.jpg" alt="Kakori Kebab">
+       <h6>Chicken Curry</h6>
+       <p>Price : ₹100</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="nveg-str" value="Egg Curry"><br>
+       <img src="img/eggcurry.jpg" alt="Fried Chilli Chicken">
+       <h6>Egg Curry</h6>
+       <p>Price : ₹80</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="nveg-str" value="Chicken Biryani"><br>
+       <img src="img/chickenbiryani.jpg" alt="Chicken Biryani">
+       <h6>Chicken Biryani</h6>
+       <p>Price : ₹80</p>
+      </div>
+      <div id="grid-ele">
+       <input id="food" type="checkbox" name="nveg-str" value="Mutton Biryani"><br>
+       <img src="img/muttonbiryani.jpg" alt="Mutton Biryani">
+       <h6>Mutton Biryani</h6>
+       <p>Price : ₹110</p>
+      </div>
+     </div>
+    </div>
+   </div>
+  <input id="check" type="button" name="check" value="Check Order" onclick="getContent()">
+  </div>
+  <div id="OrderItems">
+    <p>Table Number :<input type="text" name="tno" id="TableNo"></p><br>
+  	<table id="itemList">
+		<tr>
+			<th id="oitems">Items</th>
+	  		<th id="oprice">Price</th>
+	  		<th id="ocont">Quantity</th>
+	  	</tr>
+	</table>
+	<input id="#orItm" type="button" name="content" value="Order" onclick="dispBill()">
+  </div>
+  <div id="Bill">
+    <div id="NumTab"></div>
+    <table id="ItemOrder">
+      <tr>
+        <th id="oritems">Items</th>
+        <th id="orcont">Quantity</th>
+        <th id="orprice">Price</th>
+      </tr>
+    </table>
+    <p id="TotPrice"></p>
+  </div>
+ </body>
+</html>

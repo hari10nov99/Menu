@@ -1,0 +1,173 @@
+header{
+	color:#FE840E;
+	text-align: center;
+	font-size: 8vw;
+	font-weight: bolder;
+	text-shadow: 0px 0px 5px white;
+	font-family: 'Bree Serif', serif;
+}
+#but-div
+{
+ background-color: #FE840E;
+ color: white;
+ font-size: 4vw;
+ padding-left:2vw;
+ font-family: 'Oswald', sans-serif;
+ font-weight: bolder;
+}
+#grid-con
+{
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+ width:70vw;
+}
+#ele-div1 h5,#ele-div2 h5
+{
+ font-family: 'Oswald', sans-serif;
+ font-size:3vw;
+}
+#ele-div1 h5 img,#ele-div2 h5 img
+{
+ padding-right: 1vw;
+}
+h6{
+ font-family: 'Bitter', serif;
+ font-weight: bold;
+ font-size: 2vw;
+}
+#grid-ele p
+{
+ font-family: 'Blinker', sans-serif;
+ font-size: 1.8vw;
+ margin-top:-3vw;
+ color:#DD4132;
+}
+#grid-ele img
+{
+ width: 15vw;
+ height: 10vw;
+}
+#grid-ele:hover
+{
+ box-shadow: 0px 0px 7px black;
+ background-color: #c9f2f2;
+}
+#grid-ele
+{
+ padding: 1vw;
+ border-radius: 10px;
+ width: 20vw;
+}
+#grid-ele img , #grid-ele h6 , #grid-ele p
+{
+ margin-left: 4vw;
+}
+#grid-ele input[type="checkbox"]
+{
+  top: 0;
+  left: 0;
+  height: 2.5vw;
+  width: 2.5vw;
+  background-color: #eee;
+}
+#ele-div1,#ele-div2
+{
+ display:none;
+ margin-left: 2vw;
+}
+#but-div input[type=button]
+{
+ float: right;
+ background: none;
+ border: none;
+ color: white;
+ width: 75vw;
+ font-size: 4vw;
+ padding-left: 69vw;
+ font-family: 'Oswald', sans-serif; 
+}
+#but-div input[type=button]:hover
+{
+	cursor: pointer;
+}
+#check{
+	margin-top: 7vw;
+	color:white;
+	background-color: #FE840E;
+	width:35vw;
+	font-size: 3.3vw;
+	font-weight: bold;
+	border-radius: 5px;
+	border: none;
+	padding:2vw;
+	margin-left:33vw;
+}
+#check:hover,#OrderItems input[type=button]:hover{
+	color:#FE840E;
+	background-color: white;
+	box-shadow: 0px 0px 5px #FE840E;
+	cursor: pointer;
+}
+#OrderItems,#Bill{
+	display:none;
+	padding:3vw;
+	margin-left: 10vw;
+	background-color: white;
+	width: 70vw;
+	border-radius: 8px;
+}
+#itemList,#ItemOrder{
+	width:100%;
+	font-size: 3.3vw;
+	float:center;
+}
+#itemList th,#ItemOrder th{
+	font-family: 'Bree Serif', serif;
+	color:#FE840E;
+}
+#itemList td,#ItemOrder td{
+	font-family: 'Concert One', cursive;
+	text-align: center;
+}
+#itemList input,#Bill p{
+	border: solid;
+	width:10vw;
+	height:4vw;
+	font-size: 3.3vw;
+	font-family: 'Concert One', cursive;
+	padding-left:1.5vw;
+}
+#Bill p{
+	padding: 2vw;
+	padding-left: 2vw;
+	margin:auto;
+	margin-top: 7vw;
+	width: 20vw;
+}
+#OrderItems input[type=button]
+{
+	margin-top: 7vw;
+	color:white;
+	background-color: #FE840E;
+	width:35vw;
+	font-size: 3.3vw;
+	font-weight: bold;
+	border-radius: 5px;
+	border: none;
+	padding:2vw;
+	margin-left:17vw;
+}
+#OrderItems p{
+	font-size: 3vw;
+	font-family: 'Concert One', cursive;
+}
+#OrderItems input{
+	font-size: 2.5vw;
+	font-family: 'Concert One', cursive;
+	width:5.2vw;
+}
+#Bill h3
+{
+	font-size: 2vw;
+	font-family: 'Concert One', cursive;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KEC RESTAURANT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/KEC Restaurant1.png">
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Caveat|Sigmar+One|Viga&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			background-image: url(img/rest.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center;
+		}
+#head { grid-area: header; }
+#but { grid-area: menu; }
+#abt { grid-area: about;
+	height: 24vw;
+		width: 24vw;
+		margin-left: 6vw;
+		border-style: solid;
+		padding: 3%;
+		border-radius: 8px;
+		color: white;
+		background-color: #BE0505;}
+#abt:hover{
+	border-style: dashed;
+	}
+#det { 
+	height: 24vw;
+	grid-area: detail;
+		margin-left: 10%;
+		padding: 3%;
+		border-style: solid;
+		border-radius: 8px;
+		width: 24vw;
+		color: white;
+		background-color: #BE0505;
+		 }
+
+#det:hover{
+	border-style: dashed;
+	}
+#foot { grid-area: footer; }
+#img{ 
+	grid-area: image;
+	border-radius: 50%;
+	width: 30vw;
+	float: left;
+	margin-left: 4vw;
+	height:25vw;
+}
+#name{ grid-area: rest;
+	width: 50vw;
+	float: left;
+	margin-left: -10vw;
+	text-align: center;
+}
+#head{ 
+	display: grid;
+	grid-template-areas: 
+		'image rest rest rest rest rest';
+		padding: 2vw;
+		height:30%;
+		width:100%;
+}
+#main {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'about menu menu menu detail detail'
+    'footer footer footer footer footer footer';
+  grid-gap: 2vw;
+  padding: 2vw;
+}
+#head p{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 4vw;
+	color:#BE0505;
+}
+button{
+	width: 20vw;
+	height:6vw;
+	color:white;
+	background-color: #BE0505;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: white;
+	font-size: 3vw;
+	font-family: 'Sigmar One', cursive;
+	margin-left: 3vw;
+	margin-top: 9vw;
+}
+button:hover{
+	border-style: solid;
+	border-color: #BE0505;
+	color:#BE0505;
+	background-color: white;
+	cursor: pointer;
+}
+#abt h4, #abt p,#det h4, #det p{
+	font-family: 'Viga', sans-serif;
+	font-size: 2vw;
+}
+#foot p{
+	margin-left: 24vw;
+	color: #BE0505;
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	font-size: 2vw;
+}
+</style>
+</head>
+<body>
+	<div id="main">
+		<div id="head"><div id="img"><img src="img/KEC Restaurant1.png" width="90%" height="90%"></div><div id="name"><p>KEC RESTAURANT<p><p style="font-family: 'Caveat', cursive;">Welcome to digital supply</p></div></div>
+		<div id="abt">
+			<h4>About :</h4>
+			<p>First restaurant to make all orders digital</p>
+		</div>
+		<div id="but">
+			<a href="menu.html"><button>MENU</button></a>
+		</div>
+		<div id="det">
+			<h4>Details :</h4>
+			<p>Opened : 08-Sep-2019</p>
+			<p>Working hours: 24x7</p>
+			<p>Contact: +91 8825971005</p>
+		</div>
+		<div id="foot">
+			<p>Make digital orders, digital ordering does not affect the taste of food...</p>
+		</div>
+	</div>
+</body>
+</html>
